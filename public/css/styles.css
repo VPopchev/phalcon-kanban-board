@@ -1,0 +1,88 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.links-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    transition: all 1s;
+    border-radius: 15px;
+}
+
+.links-container a:hover {
+    background: black;
+    color: white;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.open-notes, .inProgress-notes, .finished-notes {
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.open-notes {
+    border: 5px solid blue;
+}
+
+.inProgress-notes {
+    border: 5px solid yellow;
+}
+
+.finished-notes {
+    border: 5px solid lawngreen;
+}
+
+.note {
+    background: #a2a9a9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note p {
+    font-size: 24px;
+    color: black;
+}
+
+.btn-ctr {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.btn-ctr a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-ctr a:first-of-type {
+    color: #0051ff;
+}
+
+.btn-ctr a:last-of-type {
+    color: darkred;
+}
+
+form div {
+    margin: 10px 0;
+}
